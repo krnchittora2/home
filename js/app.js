@@ -377,8 +377,8 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '19.1334'; //Set your latitude.
-    var lon = '72.9133'; //Set your longitude.
+    var lat = '12.9958'; //Set your latitude.
+    var lon = '77.6964'; //Set your longitude.
 
     var centerLon = lon - 0.0105;
 
@@ -400,7 +400,7 @@ function initializeMap() {
     });
 
     var infowindow = new google.maps.InfoWindow({
-        content: "IIT Bombay"
+        content: "Mumbai"
     });
 
     google.maps.event.addListener(marker, 'click', function () {

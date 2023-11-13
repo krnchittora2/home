@@ -499,6 +499,10 @@ p {
 .team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
     color:#181A17;
 }
+.about-title {
+    font-weight: normal;
+    font-size: 40px;
+}
 .about-text {
     margin-top:30px;
 }
